@@ -1,0 +1,301 @@
+/* Primary CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.shop_button{
+    background:#E55473;
+    height:50px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size:16px ;
+
+}
+
+.section_headding{
+    margin: 80px 0px;
+
+}
+
+.section_headding h1{
+   font-size: 40px;
+   color: #272727;
+   text-align: center;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 20px;
+}
+
+.section_headding p{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+margin: auto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.content_margin{
+    margin: 0px 150px;
+}
+
+/* Header Section CSS */
+
+/* Navbar CSS */
+.header_section{
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.navbar-title{
+    font-weight: 900;
+    
+}
+
+.navbar>ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li {
+    list-style: none;
+    margin-right: 50px;
+     
+}
+
+.navbar li a {
+   text-decoration: none;
+}
+
+/* Banner CSS */
+.banner_section{
+    display: flex;
+    align-items: center;
+    
+} 
+.banner_content{
+    width: 50%;
+}
+.banner_title{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.banner_discription{
+color: rgba(39, 39, 39, 0.60);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 32px;
+}
+
+.banner_image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_image img{
+    width: 80%;
+}
+
+/* Featured Section CSS */
+
+.featured_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured_img{
+    width: 350px;
+    height: 400px;
+    background-color: skyblue;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    position:relative;
+}
+.featured_img img{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    right: 50px;  
+}
+
+.featured_title{
+    text-align: center;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+/* Offer Section CSS */
+
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0px;
+    margin-top:80px;
+    
+}
+
+.offer_content{
+    width: 70%;
+}
+
+.offer_img{
+    width:50%;
+
+}
+.offer_content h3{
+    color: black;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.offer_content p{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom:24px;
+padding:0px 100px;
+}
+.signup_button{
+    text-align: center;
+}
+
+.offer_img {
+    display: flex;
+    justify-content:center;
+}
+
+.offer_img img{
+    width: 50%;
+}
+
+/* Instagram Section CSS */
+
+.instagram_content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.instagram_content img {
+    width: 250px;
+height: 280px;
+}
+
+
+/* Latest Deals Section CSS */
+.latest_deals{
+    background: url('../img/Rectangle 9.png');
+    width: 80%;
+    padding: 100px 0px;
+    margin: 80px auto;
+
+   
+}
+
+.deals_content h3{
+
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.deals_content p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 48px;
+}
+.subscribe_info{
+    text-align: center;
+}
+
+.subscribe_info input[type='text']{
+    width: 700px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border:none;
+color: rgba(39, 39, 39, 0.60);
+padding: 0px 20px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+}
+
+.footer_section{
+    background: black;
+    padding: 100px 0px;
+}
+
+.footer_title{
+color: white;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.footer_content{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 24px;
+}
+
+.footer_reserved{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
